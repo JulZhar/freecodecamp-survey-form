@@ -1,0 +1,77 @@
+body {
+  background: #136f63;
+  color: #fff;
+  font-family: Helvetica, Tahoma, sans-serif;
+  padding-top: 20px;
+}
+
+h1, p {
+  max-width: 500px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  background: #0c443d;
+  border: none;
+  color: white;
+  margin-top: 2px;
+  border-radius: 4px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #0c443d;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #0c443d;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #0c443d;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: unset;
+  margin-left: 15px;
+}
+
+legend {
+ padding-top: 15px;
+}
+
+.submit-container {
+  text-align: center;
+}
+
+input[type="submit"] {
+  width: 25%;
+  background: #b80c09;
+  margin-top: 15px;
+}
+
+.handwriting {
+  font-family: 'Tangerine', cursive;
+  font-size: 3em;
+}
